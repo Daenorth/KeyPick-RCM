@@ -19,7 +19,7 @@ The keyslots are as follows, with names recognized by `hactool`:
 * 0-11 - `mariko_aes_class_key_xx` (this is not used by the Switch but is set by the bootrom; hactoolnet recognizes it but it serves no purpose)
 * 12 - `mariko_kek` (not unique - this is used for master key derivation)
 * 13 - `mariko_bek` (not unique - this is used for BCT and package1 decryption)
-* 14 - `secure_boot_key` (console unique - this isn't needed for further key derivation than what Lockpick_RCM does but might be nice to have for your records)
+* 14 - `secure_boot_key` (console unique - this isn't needed for further key derivation than what KeyPick_RCM does but might be nice to have for your records)
 * 15 - Secure storage key (console unique - this is not used on retail or dev consoles and not recognized by any tools)
 
 So if you want to brute force the `mariko_kek`, open your `partialaes.keys` and observe the numbers beneath keyslot 12. Here's an example with fake numbers:
