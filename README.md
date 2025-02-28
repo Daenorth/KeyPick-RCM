@@ -48,4 +48,4 @@ This project is under the GPLv2 license. The Save processing module is adapted f
 
 Unofficial Repo
 =
-This repository is just a clone of [shchmue](https://github.com/shchmue)'s DMCA'd Lockpick_RCM repository with keys updated from the [Atmosphere](<https://github.com/Atmosphere-NX/Atmosphere>) repository and project renamed to distance itself a bit further from the DMCA'd project.
+This repository is just a clone of [saneki]([https://github.com/saneki])'s repository with keys updated from the [Atmosphere](<https://github.com/Atmosphere-NX/Atmosphere>) repository and project renamed to distance itself a bit further from the DMCA'd project.
