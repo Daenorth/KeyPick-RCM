@@ -1,13 +1,13 @@
-Lockpick_RCM
+KeyPick_RCM
 =
-Lockpick_RCM is a bare metal Nintendo Switch payload that derives encryption keys for use in Switch file handling software like hactool, hactoolnet/LibHac, ChoiDujour, etc. without booting Horizon OS.
+KeyPick_RCM is a bare metal Nintendo Switch payload that derives encryption keys for use in Switch file handling software like hactool, hactoolnet/LibHac, ChoiDujour, etc. without booting Horizon OS.
 
-Due to changes imposed by firmware 7.0.0, Lockpick homebrew can no longer derive the latest keys. In the boot-time environment however, there is no such limitation.
+Due to changes imposed by firmware 7.0.0, KeyPick homebrew can no longer derive the latest keys. In the boot-time environment however, there is no such limitation.
 
 Usage
 =
 * It is highly recommended, but not required, to place Minerva on SD from the latest [Hekate](https://github.com/CTCaer/hekate/releases) for best performance, especially while dumping titlekeys - the file and path is `/bootloader/sys/libsys_minerva.bso`
-* Launch Lockpick_RCM.bin using your favorite payload injector or chainloader
+* Launch KeyPick_RCM.bin using your favorite payload injector or chainloader
 * Upon completion, keys will be saved to `/switch/prod.keys` and titlekeys to `/switch/title.keys` on SD
 * This release bundles the Falcon keygen from [Atmosphère-NX](https://github.com/Atmosphere-NX/Atmosphere)
 
@@ -48,4 +48,4 @@ This project is under the GPLv2 license. The Save processing module is adapted f
 
 Unofficial Repo
 =
-This repository is just a clone of [shchmue](https://github.com/shchmue)'s DMCA'd Lockpick_RCM repository with keys updated from the [Atmosphere](<https://github.com/Atmosphere-NX/Atmosphere>) repository
+This repository is just a clone of [shchmue](https://github.com/shchmue)'s DMCA'd Lockpick_RCM repository with keys updated from the [Atmosphere](<https://github.com/Atmosphere-NX/Atmosphere>) repository and project renamed to distance itself a abit further from the DMCA'd project.
